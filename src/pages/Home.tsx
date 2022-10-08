@@ -25,7 +25,7 @@ const Home: React.FC = () => {
     <>
       <SearchBar setSearchTerm={setSearchTerm} />
       <Grid header={searchTerm ? 'Search Result' : 'Popular Movies'}>
-      { state.results.map((movie, index) => (
+      { state.results.map((movie) => (
         <Thumb
         key={movie.imdbID}
         clickable
