@@ -1,4 +1,4 @@
-# Bingo Game
+# Movies Game
 
 Application allow users to search movies and check the details of each movie
 
