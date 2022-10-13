@@ -2,16 +2,7 @@ import axios from 'axios';
 import {
     SEARCH_BASE_URL,
     POPULAR_BASE_URL,
-    API_URL,
-    API_KEY,
   } from './config';
-
-  const defaultConfig = {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json'
-    }
-  };
 
   // Types
   export type Movie = {

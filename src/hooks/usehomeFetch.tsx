@@ -37,7 +37,6 @@ export const useHomeFetch = () => {
 
   // initial and search
   useEffect(() => {
-    console.log('aeazeaze')
     setState(initialState);
     fetchMovies(1, searchTerm);
   }, [searchTerm]);
